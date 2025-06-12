@@ -15,12 +15,20 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 * Wave
 * Google Generatiev AI SDK (google.generativeai)
 
-## Model
-* CNN (Convolutional Neural Network) - Deep learning model specialized for image processing. This model is designed for automatic learning of features such as edges, shapes, and image textures. 
+# Model
+## Generative Models
+* Text Model - Gemini Pro is used to generate:
+  * Image scene descrptions for each comic panel
+  * Panel dialogue/captions
 
-* Input - Images
+* Image Model - Gemini 2.0 Flash (experimental image model) is used to generate:
+  * Comic-style illustrations from Gemini-generated text prompts
 
-* The CNN model applies filters/kernels to the inputted image in order to extract features. This results in the creation of multiple feature maps which are then flattened and fed through dense layers. Finally, the model outputs a set of scores which represents the model's choice of classification.
+* Input - Text
+
+* The generative system applies a sequence of steps necessary for content creation:
+  1. Text prompt input by user ("What should we make a comic about: "; "How many panels should it be: ")
+  2. Image scene description generated via 
 
 ## Image Processing
 * Our Vehicle Type Recognition dataset featured four folders (Bus, Car, Truck, motorcycle) each with 100 images (total of 400 files in our dataset).
