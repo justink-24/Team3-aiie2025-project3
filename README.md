@@ -70,3 +70,22 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 * Character appearance may shift across panels without identity tracking
 * Generated images and dialogue may be ocassionally mismatched or lacking of emotional depth
 * There is no persistent memory of characters and setings across sessions
+
+# Identical System with Text-to-Speech Capabilities
+A version of the comic strip generator includes built-in text-to-speech (TTS) functionality, using Gemini's speech generation model. This enhanced version:
+
+ * Converts each panel's caption into speech using gemini-2.5-flash-preview-tts.
+
+ * Utilizes a configurable voice profile (e.g., "Kore") via VoiceConfig.
+
+ * Exports audio as WAV files using the wave module.
+
+ * Automatically plays back the narration after displaying the panel.
+
+ * Adds multimodal storytelling features that enhance user experience and accessibility.
+
+ * Benefits visually impaired users or those who prefer auditory storytelling.
+
+ * Supports modular audio generation, allowing future implementation of multiple voices per character.
+
+This variant is built from the same Python architecture and requires only minor extensions to the core logic for TTS integration.
