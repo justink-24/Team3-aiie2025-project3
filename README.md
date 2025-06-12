@@ -53,13 +53,9 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 * Offline Operation - All logic is executed as a Python script without requiring a web server
   
 ## Model Pictures
-![image](https://github.com/user-attachments/assets/3d8c9a47-4601-4af1-b7ad-fc45c516b9e1)
+![image](https://github.com/user-attachments/assets/7288c54a-8734-48f3-8b7e-11164967267a)
 
-![image](https://github.com/user-attachments/assets/d24b9f42-845c-4d1e-8eb8-c25cfbbbdd0f)
-
-![image](https://github.com/user-attachments/assets/c176c995-16d3-439c-9a76-b6f4853ebde5)
-
-
+![image](https://github.com/user-attachments/assets/0da96075-2474-401d-b653-ecc2686077d8)
 # Example Output
 
 ![image](https://github.com/user-attachments/assets/7e5e88e7-0e45-44f4-97a7-113d33160c38)
