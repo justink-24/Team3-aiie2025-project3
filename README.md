@@ -25,7 +25,14 @@ By: Justin Kpana - Isaac Younes - Carl Forman
   * Comic-style illustrations from Gemini-generated text prompts
 
 ## How the Models Work
-* Text Model (Gemini 2.0 Flash Lite) : A large language model (LLM) that processes user input and past context to generate coherent and relevant scene descriptions and dialogue. Suitable for narrative continuity and natural-sounding/flowing comic speech. 
+* Text Model (Gemini 2.0 Flash Lite) : A large language model (LLM) that processes user input and past context to generate coherent and relevant scene descriptions and dialogue. Suitable for narrative continuity and natural-sounding/flowing comic speech.
+* Image Model(Gemini 2.0 Flash Experimental Image Generation) : This image generation framework takes input in the form of text and produces a stylized image. Visual output can be guided by enhancing the prompts with more specifics (i.e. "in the comic book style of Spiderman"). The system processes the description, applies learned visual patterns, and synthesizes an illustration that matches in comic-style.
+
+*Context: 
+![image](https://github.com/user-attachments/assets/f095d81a-654f-4e47-b0f3-0765dc941161)
+![image](https://github.com/user-attachments/assets/682df9eb-edf2-4afc-9a4b-717c399b6c5b)
+
+
 
 * The generative system applies a sequence of steps necessary for content creation:
   1. Text prompt input by user ("What should we make a comic about: "; "How many panels should it be: ")
