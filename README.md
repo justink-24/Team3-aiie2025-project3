@@ -3,7 +3,17 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 * This project uses Generative AI (Large Lanuage and Vision Models) to create comic book panels that include both illustrations and dialogue. Users can input a comic topic/prompt and a desired number of panels, and then the system generates matching visuals and text which simulate the skills of a human comic artist and writer.
   
 # Problem Statement
-* To develop a generative AI system that creates a multi-panel comic strip, when given a prompt and a number of desired panels. Each panel will include a generated image and a dialogue caption which follows narrative consistency throughout. 
+* To develop a generative AI system that creates a multi-panel comic strip, when given a prompt and a number of desired panels. Each panel will include a generated image and a dialogue caption which follows narrative consistency throughout.
+
+## Imported Libraries and Modules
+* Gemini by Google
+* Python
+* PIL (Pillow)
+* IPython Display
+* NumPy
+* BAse64
+* Wave
+* Google Generatiev AI SDK (google.generativeai)
 
 ## Model
 * CNN (Convolutional Neural Network) - Deep learning model specialized for image processing. This model is designed for automatic learning of features such as edges, shapes, and image textures. 
@@ -33,15 +43,6 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 
 ![image](https://github.com/user-attachments/assets/c176c995-16d3-439c-9a76-b6f4853ebde5)
 
-## Imported Libraries and Modules
-* Kagglehub
-* Shutil
-* os
-* TensorFlow
-* Keras
-* Random
-* PIL
-* Image (PIL)
 
 ## Model Performance Table
 
