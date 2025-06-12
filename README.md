@@ -60,23 +60,10 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 ![image](https://github.com/user-attachments/assets/c176c995-16d3-439c-9a76-b6f4853ebde5)
 
 
-## Model Performance Table
+# Example Output
 
-| Epoch | Layers | Batch Size | Train/Test Split          | Accuracy | Image Size |
-|-------|--------|------------|---------------------------|----------|------------|
-| 3     | 11     | 32         | 80% train, 20% test       | 50%      | 150 x 150  |
-| 10    | 11     | 32         | 80% train, 20% test       | 82%      | 150 x 150  |
-| 20    | 11     | 32         | 80% train, 20% test       | 95%      | 150 x 150  |
-| 3     | 9      | 16         | 60% train, 40% test       | 69%      | 128 x 128  |
-| 10    | 9      | 16         | 60% train, 40% test       | 75%      | 128 x 128  |
-| 20    | 9      | 16         | 60% train, 40% test       | 88%      | 128 x 128  |
-| 3     | 15     | 64         | 70% train, 30% test       | 50%      | 224 x 224  |
-| 10    | 15     | 64         | 70% train, 30% test       | 53%      | 224 x 224  |
-| 20    | 15     | 64         | 70% train, 30% test       | 78%      | 224 x 224  |
-| 30    |  9     | 32         | 50% train, 50% test       | 94%      | 150 x 150  |
-| 10    | 13     | 32         | 85% train, 15% test       | 73%      | 150 x 150  |
-| 30    | 13     | 32         | 85% train, 15% test       | 91%      | 150 x 150  |
-| 50    | 9      | 32         | 85% train, 15% test       | 94%      | 150 x 150  |
+![image](https://github.com/user-attachments/assets/7e5e88e7-0e45-44f4-97a7-113d33160c38)
+
 
 ## Results
 ![results chart](https://github.com/user-attachments/assets/42e703a5-b2e8-4778-9e51-ed73abaf5640)
