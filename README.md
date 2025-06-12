@@ -61,21 +61,12 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 ![image](https://github.com/user-attachments/assets/7e5e88e7-0e45-44f4-97a7-113d33160c38)
 
 
-## Results
-![results chart](https://github.com/user-attachments/assets/42e703a5-b2e8-4778-9e51-ed73abaf5640)
+# Results
+* Gemini models are capable of effectively hnadling storytelling progression when previous content is used as input
+* The comic generation feels cohesive and creatively authentic
+* The system is capable of simulating a co-creative storytelling process between user and AI.
 
-* The trial that yielded our greatest accuracy percentage (95%) featured 20 epochs, 11 layers, a batch size of 32, an 80:20 train-test split, and an expected image size of 150 x 150.
-* Two trials yielded our lowest accuracy percentage of 50%, which is essentially the AI model's version of guessing. Both trials featured 3 epochs yet differed in all other attributes.
-* Our best results (95%, 94%, 94%) came from 150x150 image size, high layer counts (20-50), and a moderate batch size (11-13) with standard splits (80:20, 85:15).
-* Our poorest performing configurations (69%, 50%, 50%) featured very few epochs (3), larger image sizes (128x128, 224x224), and a lack of model depth. Due to the small number of epochs in those three trials, our machine learning model experienced underfitting (when a model is too simple to capture the underlying patterns provided in training data). Additionally, larger image sizes were used without the corresponding required deeper models, which in turn leads to a drop in performance. Increased image resolution + lack of corresponding model depth = poor performance.
-* In conclusion, our best results came from a combination of a moderate image size such as 150x150, a sufficient model depth (20-30 layers), balanced train/test splits (80:20, 85:15) and a moderately small number of layers (~11 -13). Trials with too few layers or large input sizes without deep models convincingly underperformed.
-
-* Final Model – A CNN with 11 layers, trained for 20 epochs using a batch size of 32, an 80:20 train-test split, and fixed input image size of 150×150.
-  
-## Links to Google Colab Notebooks
-* 80:20 split = https://colab.research.google.com/drive/1Ng7Ce1vYFirSZeHEQ9JfkaCo7JqxBPt5?usp=sharing
-* 70:30 split = https://colab.research.google.com/drive/10s4Q-cvGm-MrF8D7zg2WOVY8_HBedFQo?usp=sharing
-* 60:40 split = https://colab.research.google.com/drive/1PiHsfhQMgLMYloThjE6qAj8tdc6GwPhp?usp=sharing
-* 50:50 split = https://colab.research.google.com/drive/1w-8C-cUREOqzPfSk_ZQX3Dr9UEomwDuB?usp=sharing
-* 85:15 split = https://colab.research.google.com/drive/1wmzZYqvsNKXAVRmucWe4GPjkLB8y8j_e?usp=sharing
-
+## Limitations
+* Character appearance may shift across panels without identity tracking
+* Generated images and dialogue may be ocassionally mismatched or lacking of emotional depth
+* There is no persistent memory of characters and setings across sessions
