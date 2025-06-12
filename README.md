@@ -24,11 +24,15 @@ By: Justin Kpana - Isaac Younes - Carl Forman
 * Image Model - Gemini 2.0 Flash (experimental image model) is used to generate:
   * Comic-style illustrations from Gemini-generated text prompts
 
-* Input - Text
+## How the Models Work
+* Text Model (Gemini 2.0 Flash Lite) : A large language model (LLM) that processes user input and past context to generate coherent and relevant scene descriptions and dialogue. Suitable for narrative continuity and natural-sounding/flowing comic speech. 
 
 * The generative system applies a sequence of steps necessary for content creation:
   1. Text prompt input by user ("What should we make a comic about: "; "How many panels should it be: ")
-  2. Image scene description generated via 
+  2. Image scene description generated via Gemini 2.0 Flash Lite
+  3. Comic-style image generatred from scene description using Gemini 2.0 Flash Experimental Image Generation
+  4. Caption/dialogue generated using Gemini 2.0 Flash Lite
+  5. All outputs are conclusively displayed inline for user review
 
 ## Image Processing
 * Our Vehicle Type Recognition dataset featured four folders (Bus, Car, Truck, motorcycle) each with 100 images (total of 400 files in our dataset).
