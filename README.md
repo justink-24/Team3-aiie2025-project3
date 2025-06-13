@@ -89,3 +89,7 @@ A version of the comic strip generator includes built-in text-to-speech (TTS) fu
  * Supports modular audio generation, allowing future implementation of multiple voices per character.
 
 This variant is built from the same Python architecture and requires only minor extensions to the core logic for TTS integration.
+
+# Links to Google Colabs
+* https://colab.research.google.com/drive/1CXBOYgLPcTHx4tXB545DayuQ6b6mz3M2?usp=sharing
+* https://colab.research.google.com/drive/1WtEetiAzyYKyR7hIHPDq3K-NCQ7rbl-4?usp=sharing
